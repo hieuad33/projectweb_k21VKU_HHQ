@@ -1,0 +1,397 @@
+	
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+      text-decoration: none;
+    }
+    .Header{
+
+      width: 100%;
+  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    width: 100%;
+}
+.Logo img{
+    width: 80%;
+    background-color: white;
+}
+.Logo .img1{
+
+margin: 5px;
+margin-top: 10px;
+float: right;
+}
+.Logo .img2{
+  margin: 5px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  float: right;
+  }
+
+.topnav {
+  
+  height: inherit;
+  overflow: hidden;
+  background-color: #f0e40d;
+}
+
+.topnav a {
+  margin-top: 30px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+.search{
+
+float: right;
+padding: 6px;
+border-radius: 20px;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 14px;
+background-color: white;
+}
+.search1{
+  float: left;
+
+  }
+.search input{
+  border:none;
+}
+.topnav a:hover {
+  background-color: #cbc109;
+  color: #d90905;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+
+.topnav .search-container button {
+  float: right;
+  padding: 2px 5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #f0e40d;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #f0e40d;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #f0e40d;  
+  }
+}
+/* Add a black background color to the top navigation bar */
+.topnav1 {
+
+    overflow: hidden;
+    background-color: #ddd;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav1 a {
+    margin-left:  60px;
+    justify-content:center;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav1 a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .mySlides {display:none}
+  .w3-left, .w3-right, .w3-badge {cursor:pointer}
+  .w3-badge {height:13px;width:13px;padding:0}
+
+  .footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    background-color:rgb(201, 234, 69);
+    text-align: center;
+}
+.footer .item{
+  margin-top: 20px;
+}
+.footer .item > li{
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer img {
+  border: 20px  ;
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.my-4 {
+  position: relative;
+  text-align: center;
+  color: #374f8a;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0.5rem;
+}
+
+.my-4:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  top: 100%;
+  right: 48%;
+  background: #d90905;
+  bottom: 0;
+}
+
+
+.column {
+  border-radius: 2px rgb(209, 212, 208);
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+.column1 {
+  margin: 50PX 50PX;
+  float: left;
+  width: 33.33%;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+
+.column2 {
+  margin: 50PX 50PX;
+  float: left;
+  width: 50%;
+  padding-top:10px;
+}
+.column2 img{
+  width: 300px; 
+  height: auto; 
+  margin-bottom:10px;
+  margin-left:10px;
+}
+/* Clear float khác sau các cột */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+có chiều rộng dưới 600px */
+  @media screen and (max-width:600px) {
+    .column {
+    width: 100%;
+  }
+}
+
+.button {
+  float: left;
+  border-radius: 50px;
+  background-color:rgb(60, 163, 60);
+  border: none;
+  color: yellow;
+  padding: 10px 16px;
+  margin-left:30px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.button a{
+  margin-top: 0; ;
+}
+.button:hover {
+  border-radius: 50px;
+  background-color: crimson;
+  color: rgb(240, 24, 24);
+  font-weight: 1000;
+}
+
+
+
+.footer1{
+
+  width: 100%;
+  height: 250px;
+  margin-top: 0px;
+  background-color:rgb(201, 234, 69);
+  text-align: center;
+}
+.column3 {
+  margin-left: 20px;
+  float: left;
+  width: 25%;
+}
+.column4 {
+  margin-left: 50px;
+  float: left;
+  width: 25%;
+}
+.column5 {
+  
+  float: left;
+  width: 25%;
+}
+.column6 {
+  float: left;
+  width: 25%;
+}
+
+.column7 {
+  float: left;
+  width: 100%;
+}
+.row1{
+  display: flex;
+  content: "";
+  clear: both;
+}
+
+/* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+có chiều rộng dưới 600px */
+  @media screen and (max-width:600px) {
+    .column {
+    width: 100%;
+  }
+}
+ li{
+   margin-right: 20px;
+   list-style: none;
+   text-align: justify;
+  font-size:20px;
+  color: blue;
+}
+p{
+  text-align: justify;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 19px;    
+  border: none;
+  outline: none;
+  padding: 42px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #f0e40d;
+  color: red;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0e40d;
+  color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid rgb(232, 19, 19);
+  margin: 10px 0px;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+
+.csw-media {
+  overflow: hidden;
+  display: inline-block;
+}
+.csw-media img {
+  transition: 0.9s;
+}
+.csw-media:hover img {
+  transform: scale(1.1, 1.1);
+}
+
